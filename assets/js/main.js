@@ -123,6 +123,9 @@
 	// Background.
 		$wrapper._parallax(0.925);
 
+/*
+		
+*/
 	// Nav Panel.
 
 		// Toggle.
@@ -198,6 +201,19 @@
 
 	// Intro.
 		var $intro = $('#intro');
+
+		var projects = document.getElementById('main').innerHTML;
+
+		document.getElementById('loadResume').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            var resume = document.getElementById('resume').innerHTML;
+            document.getElementById('main').innerHTML = resume; // Update to resume
+		});
+
+		document.getElementById('loadProjects').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            document.getElementById('main').innerHTML = projects; // Update to projects
+		});
 
 		if ($intro.length > 0) {
 

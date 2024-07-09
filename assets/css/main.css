@@ -4737,6 +4737,10 @@ input, select, textarea {
     margin-bottom: 10px;
 }
 
+.hidden {
+	display: none;
+}
+
 /*
 
 .contact-section section {
