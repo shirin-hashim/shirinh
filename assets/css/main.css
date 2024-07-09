@@ -3386,13 +3386,13 @@ input, select, textarea {
 				}
 
 		#intro h1 {
-			font-size: 5rem;
-			line-height: 1;
+			font-size: 7.5rem;
+			line-height: 0.25;
 		}
 
 		#intro p {
-			font-size: 1.25rem;
-			font-style: italic;
+			font-size: 2.5rem;
+			font-style: normal;
 			margin-top: -0.25rem;
 			text-align: center;
 		}
@@ -4687,3 +4687,71 @@ input, select, textarea {
 		}
 
 	}
+
+/* Footer styles */
+#footer {
+    background-color: #ffffff; /* Example footer background color */
+    color: #212931;
+    padding: 50px 0	;
+    text-align: center;
+}
+/*
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+}
+*/
+
+
+.contact-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+  }
+
+.info-item {
+	flex: 1;
+	padding: 15px 100px;
+	width: 300px; /* Adjust this value as needed */
+    
+  }
+
+.info-item p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+    margin: 0 auto; /* Centers the paragraph horizontally */
+    max-width: 100%; /* Ensures the text doesn't exceed the parent width */
+}
+
+.contact-section h3 {
+	margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/*
+
+.contact-section section {
+    margin: 10px 20px;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact-section ul li {
+    margin: 0 10px;
+}
+*/
