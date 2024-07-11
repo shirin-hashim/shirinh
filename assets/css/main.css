@@ -4715,7 +4715,7 @@ input, select, textarea {
 }
 
 .flex-container iframe {
-	width: 425px;/*adjust as needed*/
+	width: 400px;/*adjust as needed*/
 	height: 550px;
 	max-width: 800px; /* Max width for large screens */
 	aspect-ratio: 16/9; /* Maintain 16:9 aspect ratio */
