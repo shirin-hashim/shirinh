@@ -4711,11 +4711,11 @@ input, select, textarea {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 100vh; /* Adjust as needed */
+	height: 100vh;
 }
 
 .flex-container iframe {
-	width: 450px;
+	width: 425px;/*adjust as needed*/
 	height: 550px;
 	max-width: 800px; /* Max width for large screens */
 	aspect-ratio: 16/9; /* Maintain 16:9 aspect ratio */
